@@ -41,7 +41,7 @@
 
         </div>
     </div>
-    <script src="./static/js/script.js"> </script>
+    
 
     <hr>
     <!-- Rock Paper Scissors -->
@@ -59,9 +59,32 @@
             alt="Image of Scissors" onclick="game(this)" class="rps-image" id="scissors">
         </div>
     </div>
-    
+
     <hr>
 
+    <!-- Change Colors of All Buttons -->
+
+    <div class="project-4">
+        <h2 id="change-my-color" class="project-header">Project 4: Change Colors of All Buttons </h2>
+        <div class="pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+
+            <button class="btn btn-primary"> Facebook </button>
+            <button class="btn btn-danger"> Tesla </button>
+            <button class="btn btn-warning"> Google </button>
+            <button class="btn btn-success"> Amazon </button>
+            
+        </div>
+    </div>
+
+    <script src="./static/js/script.js"> </script>
 
 </body>
 </html>
