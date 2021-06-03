@@ -11,9 +11,8 @@
     justify-content: center;
 }
 
-.container-1{
+.container-1, .container-2, .container-3{
     display: flex;
-    padding: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -36,13 +35,6 @@
     margin: 0 auto;
 }
 
-.container-2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
- 
-}
-
 .container-2 img{
     margin: 15px;
     width: 150px;
@@ -52,3 +44,21 @@
 
 /* Rock Paper Scissors */
 
+.rps-image{
+    width: 150px;
+    height: 150px;
+}
+
+.project-3{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-3 img:hover{
+    box-shadow: 0px 10px 50px rgb(99, 185, 53);
+}
+
+#flex-container-3{
+    margin-top: 25px;
+}
